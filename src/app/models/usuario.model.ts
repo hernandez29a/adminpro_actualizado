@@ -12,6 +12,7 @@ export class Usuario {
         public public_id?: string,
         public role?: string, 
         public uid?: string, 
+        public codigo?: string, 
     ){}
 
 }

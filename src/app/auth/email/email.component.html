@@ -1,0 +1,22 @@
+<div class="login-register animated fadeIn fast" style="background-image:url(../assets/images/background/login-register.jpg);">
+    <div class="login-box card">
+        <div class="card-body">
+            <form class="form-horizontal form-material" id="emailform" [formGroup]="emailform" (ngSubmit)="sendEmail()">
+                <h3 class="box-title m-b-20">Recuperar Contraseña</h3>
+                <h5 class="box-title m-b-20">
+                    <a routerLink="/login">Regresar</a>
+                </h5>
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <input class="form-control" formControlName="email" type="text" required="" placeholder="Correo">
+                    </div>
+                </div>
+                <div class="form-group text-center p-b-10">
+                    <div class="col-xs-12">
+                        <button class="btn btn-info btn-lg btn-block text-uppercase waves-effect waves-light" type="submit">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

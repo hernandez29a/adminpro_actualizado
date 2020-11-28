@@ -14,6 +14,7 @@ import { HospitalesComponent } from './mantenimientos/hospitales/hospitales.comp
 import { MedicosComponent } from './mantenimientos/medicos/medicos.component';
 import { MedicoComponent } from './mantenimientos/medicos/medico.component';
 import { BusquedasComponent } from './busquedas/busquedas.component';
+import { RestarPasswordComponent } from './restar-password/restar-password.component';
 
 
 
@@ -29,6 +30,7 @@ import { BusquedasComponent } from './busquedas/busquedas.component';
     MedicosComponent,
     MedicoComponent,
     BusquedasComponent,
+    RestarPasswordComponent,
   ],
   exports:[
     DashboardComponent,

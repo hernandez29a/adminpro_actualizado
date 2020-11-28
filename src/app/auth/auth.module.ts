@@ -6,6 +6,8 @@ import {HttpClientModule} from '@angular/common/http'
 
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { EmailComponent } from './email/email.component';
+import { RestPassComponent } from './rest-pass/rest-pass.component';
 
 
 
@@ -13,10 +15,14 @@ import { RegisterComponent } from './register/register.component';
   declarations: [
     LoginComponent,
     RegisterComponent,
+    EmailComponent,
+    RestPassComponent,
   ],
   exports:[
     LoginComponent,
     RegisterComponent,
+    EmailComponent,
+    RestPassComponent
   ],
   imports: [
     CommonModule,
